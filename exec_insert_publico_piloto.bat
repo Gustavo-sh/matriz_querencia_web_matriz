@@ -1,5 +1,5 @@
 @echo off
 
-cd /d "C:\Users\e.gustavo.santos.GRUPO_A&C\Documents\Projetos\9 - matriz_querencia"
+cd /d "C:\Users\e.gustavo.santos.GRUPO_A&C\Documents\Github\matriz_querencia_web_matriz"
 
 python insert_publico_piloto.py
