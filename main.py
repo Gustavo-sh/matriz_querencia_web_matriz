@@ -178,8 +178,8 @@ if __name__ == "__main__":
             notify_telegram("🚫 Nenhum atributo sem matriz no mes atual, com hc ativo e com dados para disponibilidade encontrado para cadastro de matriz querencia.")
             write_log("Nenhum atributo sem matriz no mes atual, com hc ativo e com dados para disponibilidade encontrado para cadastro de matriz querencia.")
         else:
-            notify_telegram("✅ Atributos cadastrados com matriz querencia para o mes atual (importação valida = 0): \n\n" + str(attributes))
-            write_log("Atributos cadastrados com matriz querencia para o mes atual (importação valida = 0): \n\n" + str(attributes))
+            notify_telegram("✅ Atributos cadastrados com matriz querencia para o mes atual (importação valida = 1): \n\n" + str(attributes))
+            write_log("Atributos cadastrados com matriz querencia para o mes atual (importação valida = 1): \n\n" + str(attributes))
         conn.close()
     except Exception as e:
         notify_telegram("⚠️ Erro no cadastro automático de matriz querência: " + str(e))
